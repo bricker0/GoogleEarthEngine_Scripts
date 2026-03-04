@@ -1,4 +1,4 @@
-
+//first you will need to use the drawing tools in Google Earth Engine to draw the geometry of the bounding box of your area of interest - the rest of the script should work after that. To see a fully working version - use the script with the geography baked in
 //Call the Sentinel 2 dataset and change the date based on the range that interest you - this will create a cloudless mosaic from pixels within that date range.
 var S2_collection = ee.ImageCollection('COPERNICUS/S2_HARMONIZED')
   .filterBounds(geometry)
@@ -30,4 +30,5 @@ region: geometry,
 description: 'RGB_Aruba_2025',
 scale: 30,
 })
+
 
