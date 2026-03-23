@@ -7,6 +7,6 @@ In this script - you call Sentinel 2 data for the whole world, you can change th
 
 <a href="https://github.com/bricker0/GoogleEarthEngine_Scripts/blob/main/GEE_clip_bounding_box.js">This script</a> uses a bounding box that you set yourself using the <b>drawing tools in the Google Earth Engine interface</b>. If you do not make a bounding box, this script will not work. Also pay attention to the variable name of the bounding box, make sure it matches your script. geometry2 for example.
 
-If you would like to clip an image based on the country boundaries <a href="GEE_clip_country_UN.js"> use this script </a> which calls country boundaries based on the official United Nations Global Administrative Unit Layer (GAUL) Data. 
+If you would like to clip an image based on the country boundaries <a href="GEE_clip_country_UN.js"> use this script </a> which calls country boundaries based on the official United Nations Global Administrative Unit Layer (GAUL) Data. You can read more about <a href="https://www.fao.org/agroinformatics/training-and-resources/data-sets/data-set-detail/global-gaul-new-2024-release/en"> GAUL </a> and the <a href="https://salb.un.org/en">Second Administrative Level Boundary here</a>.
 
-You can read more about <a href="https://www.fao.org/agroinformatics/training-and-resources/data-sets/data-set-detail/global-gaul-new-2024-release/en"> GAUL </a> and the <a href="https://salb.un.org/en">Second Administrative Level Boundary here</a>.
+This script also gives you the ability to export the image to your Google Drive. From there, you can save it locally and use it in QGIS...
