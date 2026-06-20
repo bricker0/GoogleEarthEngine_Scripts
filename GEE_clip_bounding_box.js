@@ -27,7 +27,7 @@ Map.centerObject(geometry);
 Export.image.toDrive({
 image: S2_mosaic,
 region: geometry,
-description: 'RGB_Aruba_2025',
+description: 'S2_ROI_07-12-2025',
 scale: 30,
 })
 
