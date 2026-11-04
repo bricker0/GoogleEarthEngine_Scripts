@@ -12,6 +12,20 @@ In this next example - instead of Sentinel 2 data - we call a processed Land Cov
 
 Finally in the AHN4_clipProv.js you can call 0.5 meter elevation data from a digital terrain model for a Dutch province you pick. In this example, I call Zeeland. Read more about how this can be fun and useful in this paper I wrote titled <a href="https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2025.1507385/full">Digital elevation models, old maps, and cultural heritage—geospatial assets for the digital humanities</a>.
 
-Next - for the EIA course I teach - a basic change over time exercize. In this script I call a location where I know a data center was built 2008-2026 - so I will use Landsat 7 Surface reflectance - i will make a orthomosaic of cloudless images for the area from Time 1 which will be winter 2008 and then subtract an orthomosaic of cloudless images for the area from Time 2 winter 2025
+Next - for the EIA course I teach - a basic change-over-time exercise. 
+In this script, I call a location where I know a data centers were built between 2016-2026, comparing winter - calling Sentinel-2 data - 
+Generate the Orthomosaic 
+Identify the EO sensor – Sentinel 2 
+Identify the area of interest – set the geometry
+Create a cloudless composite – cloud mask 
+Median pixel value over a given date range - 
+Then generate Normalized Difference Vegetation Index, Normalized Difference Built Up index,  
+Do all of the above for the two time periods
+calculate change over time 
+
+You can play with the 
+<a href="https://ee-bricker0.projects.earthengine.app/view/eia-course-example"> interactive app here </a>, where you can turn the layers on and off to explore change over time. <br>
+
+<a href="[https://ee-bricker0.projects.earthengine.app/view/eia-course-example](https://code.earthengine.google.com/6e6313593fb5969f1086da96e1a9cb98)">. And then here is the script itself </a> - I think the quantified hectares for the new built-up values are underestimated - what do you think? I made this script with the help of ChatGPT. 
 
 
