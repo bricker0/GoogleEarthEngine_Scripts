@@ -21,11 +21,11 @@ Create a cloudless composite – cloud mask
 Median pixel value over a given date range - 
 Then generate Normalized Difference Vegetation Index, Normalized Difference Built Up index,  
 Do all of the above for the two time periods
-calculate change over time 
+Calculate change over time 
 
 You can play with the 
 <a href="https://ee-bricker0.projects.earthengine.app/view/eia-course-example"> interactive app here </a>, where you can turn the layers on and off to explore change over time. <br>
 
-<a href="[https://ee-bricker0.projects.earthengine.app/view/eia-course-example](https://code.earthengine.google.com/6e6313593fb5969f1086da96e1a9cb98)">. And then here is the script itself </a> - I think the quantified hectares for the new built-up values are underestimated - what do you think? I made this script with the help of ChatGPT. 
+<a href="https://ee-bricker0.projects.earthengine.app/view/eia-course-example](https://code.earthengine.google.com/6e6313593fb5969f1086da96e1a9cb98)">And then here is the script itself </a> - I think the quantified hectares for the new built-up values are underestimated - what do you think? I made this script with the help of ChatGPT. 
 
 
